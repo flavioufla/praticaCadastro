@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Exemplo Busca</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="css/cep.css"/>
+
+  <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<br />
+<br />
+  <div class="container">
+
+
+
+    <div class="row">
+
+      <div class="col-md-5 col-md-offset-4">
+
+        <h2> Cadastro de estado </h2>
+
+        <form method="post" action="app/cadastro_estado.php">
+
+          <br />
+          <label for="sigla">Sigla:</label>
+          <input name="sigla" id="sigla" class="form-control" required>
+          <label for="descricao">Descrição:</label>
+          <input name="descricao" id="descricao" class="form-control" required>
+          <br />
+          
+          <button type="submit" class="btn btn-primary btn-lg col-xs-12">Cadastrar Estado</button>
+
+        </form>
+
+      </div>
+
+    </div>
+ 
+  </div>
+ 
+</body>
+</html>
