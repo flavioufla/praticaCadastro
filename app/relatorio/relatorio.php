@@ -1,6 +1,6 @@
 <?php
 
-require_once('baseClass.php');
+require_once('../baseClass.php');
 
 class relatorio extends baseClass {
 

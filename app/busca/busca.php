@@ -23,6 +23,7 @@ class busca extends baseClass {
         tb3.endereco_complemento as complemento,
         tb3.endereco_codigo,
         tb2.bairro_codigo,
+        tb1.cidade_codigo,
         ifnull(tb3.endereco_cep,tb1.cidade_cep) as value
         from
         cep.cidade tb1

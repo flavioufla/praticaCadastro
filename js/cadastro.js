@@ -18,7 +18,7 @@ $( function() {
       },
       minLength: 2,
       select: function( event, ui ) {
-       $("#endereco_id").val(ui.item.endereco_codigo);
+       $("#cidade_id").val(ui.item.cidade_codigo);
        $("#bairro_id").val(ui.item.bairro_codigo);
        $("#uf").val(ui.item.uf);
        $("#cidade").val(ui.item.cidade);
@@ -44,7 +44,7 @@ $( function() {
       },
       minLength: 4,
       select: function( event, ui ) {
-        $("#endereco_id").val(ui.item.endereco_codigo);
+        $("#cidade_id").val(ui.item.cidade_codigo);
         $("#bairro_id").val(ui.item.bairro_codigo);
         $("#uf").val(ui.item.uf);
         $("#cep").val(ui.item.cep);
