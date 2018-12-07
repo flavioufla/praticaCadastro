@@ -87,6 +87,8 @@ class cadastro extends baseClass {
                 '$complemento'
             )";
 
+
+
             $retorno = mysqli_query($this->conn, $sql);
 
             if(!$retorno) {
